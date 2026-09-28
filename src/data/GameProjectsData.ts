@@ -101,4 +101,40 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#383838", false, true),
+    new ProjectData("project-4", "Space in Darkness", "img/projects/project-4-icon.png", `
+    <div class="paragraph">
+        <strong>Space in Darkness</strong> é um dos primeiros trabalho universitário que criei com meus colegas, é um jogo mobile hipercasual.
+        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph center">
+        <a href="https://am1lton.itch.io/space-in-darkness" target="_blank"><img src="img/projects/itch_io.svg" style="height: 100px; width: auto; alt="itch.io store logo" /></a>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Some stuff</li>
+        <li>Some great stuff</li>
+        <li>More awesome stuff</li>
+        <li>And then some</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
+        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+    </div>
+    `, "#383838"),
 ];
