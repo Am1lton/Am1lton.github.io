@@ -1,17 +1,26 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Olá!</h1>
 
-    <div class="paragraph">
-      <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
-      </div>
+	<div class="paragraph">
+		<div>
+			Eu sou <strong>Arthur Camargo</strong>, estudante de Design de Jogos na Universidade do Vale de Itajaí focado na programação.
+			Estagiei na DUA Games onde auxiliei na criação de jogos feitos por e para crianças com deficiência.
+		</div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+		<div style="margin-top: 20px;">
+			Durante o estágio na DUA Games programei mecânicas em C# na Unity para o jogo Herói do Labirinto, como movimentação do personagem,
+			habilidades como o avanço(dash) e IA dos inimigos, além de um shader simple de preenchimento de cor sólida usada na indicação dos seus ataques feito com shadergraph na Unity.
+			Gostei muito de trabalhar com este jogo não só pelas mecânicas que programei mas por poder ter visto o uso delas pelas crianças que testaram seus jogos.
+		</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
-    </div>
+		<div style="margin-top: 40px;">
+			Gosto especialmente de programar e desenvolver mecânicas para jogo.
+			Hoje procuro oportunidades de trabalho na programação e/ou desenvolvimento de mecânicas para jogos.
+		</div>
+
+		<div style="margin-top: 20px;">Mais sobre meu trabalho está disponível no meu github: <a href="https://github.com/Am1lton" target="_blank" rel="noopener noreferrer">Am1lton</a></div>
+	</div>
 
     <div class="photo">
       <img src="img/avatar.png" alt="Avatar of John" /> 
