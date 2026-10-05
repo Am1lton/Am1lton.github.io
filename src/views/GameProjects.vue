@@ -1,9 +1,9 @@
-<template>
+ï»¿<template>
   <div>
     <h1>Jogos</h1>
 
     <div style="margin-bottom: 30px;">
-      Jogos que participei na criação
+      Jogos que participei na criaÃ§Ã£o
     </div>
 
     <ProjectsList v-bind:projects="projects" />
